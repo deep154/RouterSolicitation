@@ -10,8 +10,9 @@ Library Used :
 2) mdlayher/ndp
 
 Router Solicitation Message is send containing the 
-1) Flags 
-2) TunnelID
-These are used as default set in library and can be configured from functions used. 
+1) Flags  & TunnelID
+These are used as default set in library and can be configured from functions used.
 
+In Response to Router Solicitation msg , "Router Advertisement msg" is sent over the same TunnelID containing the Ipv6 prefix for the UE.
+ 
 Please use Ip and ports as your specific convinince. 
