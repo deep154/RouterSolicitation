@@ -14,5 +14,6 @@ Router Solicitation Message is send containing the
 These are used as default set in library and can be configured from functions used.
 
 In Response to Router Solicitation msg , "Router Advertisement msg" is sent over the same TunnelID containing the Ipv6 prefix for the UE.
- 
-Please use Ip and ports as your specific convinince. 
+
+Use : go run sol.go 
+Please use Ip and ports as your specific convinince. Target IP:port are hardcoded here.
